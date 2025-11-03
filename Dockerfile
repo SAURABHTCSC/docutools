@@ -10,4 +10,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+THIS IS THE NEW LINE THAT FIXES THE ERROR
+
+ENV PYTHONPATH /app
+
 CMD ["gunicorn", "docutools.wsgi"]
