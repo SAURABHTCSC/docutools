@@ -1,0 +1,10 @@
+Flask
+flask-cors
+docx2pdf
+PyPDF2
+docxcompose
+tabula-py
+pandas
+openpyxl
+gunicorn
+python-docx
