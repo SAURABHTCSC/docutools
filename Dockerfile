@@ -5,4 +5,4 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 ENV PYTHONPATH /app
-CMD ["gunicorn", "docutools.wsgi"]
+CMD ["gunicorn", "server:app"]
